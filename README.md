@@ -8,7 +8,7 @@ As part of this, you are required to build a boilerplate git repository that inc
 Your repository should define a comprehensive pipeline that has at least the following stages: test, build, publish.
 
 As part of this, a simple REST API should also be present in the repository that has a root / endpoint that returns a basic "Hello World" message, and a /status endpoint that returns the following response:
-
+```
 {
   "myapplication": [
     {
@@ -18,3 +18,4 @@ As part of this, a simple REST API should also be present in the repository that
     }
   ]
 }
+```
