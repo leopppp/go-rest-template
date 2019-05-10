@@ -1,4 +1,9 @@
 language: go
-
-go:
-- 1.12.x
+services:
+  - docker
+script:
+- make build
+- test -f bin/linux_amd64/rest
+- make all-container
+- docker images | grep "^leopppp/rest.*__linux_amd64"
+- make test
