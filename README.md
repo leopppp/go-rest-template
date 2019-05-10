@@ -1,4 +1,7 @@
-# template-rest-service
+# Overview
+
+Testing: [Travis-ci](https://travis-ci.org/leopppp/template-rest-service) [![Build Status](https://travis-ci.org/leopppp/template-rest-service.svg?branch=master)](https://travis-ci.org/leopppp/template-rest-service)
+
 Scenario:
 
 A large micro services project has set course to develop a considerable number of REST API's in the next 12 months. They are aiming to use a standard set of technologies and patterns to bring consistency to their delivery.
